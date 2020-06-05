@@ -8,7 +8,13 @@ namespace Tutorial
     {
         /*
          Section 7 - ?
-            ?
+            connect to database and display
+        
+            Object Relational Mapper (ORM)
+            Entity framework - class to manage databases
+            SQLLite
+            <Grid> = container
+            Databinding
          */
 
         public void PrintHello()
