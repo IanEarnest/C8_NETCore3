@@ -12,6 +12,21 @@ namespace Tutorial
             
          */
 
+
+        //public string fileLocation = @"C:\Users\ianea\source\repos\C8_NETCore3\Tutorial\test.txt";
+        //public string fileLocation = $"./";       // = Tutorial\bin\Debug\netcoreapp3.1\test.txt
+        //public string fileLocation = $"../";      // = Tutorial\bin\Debug\test.txt
+        //public string fileLocation = $"../../";   // = Tutorial\bin\test.txt
+        //public string fileLocation = $"../../../";// = Tutorial\test.txt
+        public string fileName = "test.txt";
+        public string fileLocation = $"../../../";
+        
+
+        public Section4()
+        {
+            fileLocation += $"{fileName}"; // "../../../test.txt";
+        }
+
         public void PrintHello()
         {
             Console.WriteLine("S4 Hello World!");
@@ -56,14 +71,14 @@ namespace Tutorial
 
         public void Save(string line)
         {
-            StreamWriter writer = new StreamWriter(@"C:\Users\ianea\source\repos\C8_NETCore3\Tutorial\Tutorial\test.txt");
+            StreamWriter writer = new StreamWriter(fileLocation);
             writer.WriteLine(line);
             writer.Close();
             writer.Dispose();
         }
         public string Load()
         {
-            StreamReader reader = new StreamReader(@"C:\Users\ianea\source\repos\C8_NETCore3\Tutorial\Tutorial\test.txt");
+            StreamReader reader = new StreamReader(fileLocation);
             string line = reader.ReadLine();
             reader.Close();
             reader.Dispose();

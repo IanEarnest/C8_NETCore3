@@ -27,7 +27,7 @@ namespace Tutorial
         {
             int count = 5;
             string name = "Steve";
-            char c = 'S';
+            //char c = 'S';
             Console.WriteLine($"Name: {name}, {name.ToUpper()}, {name.ToLower()}, {name.Replace("Steve", "Alan")}");
 
             bool isTrue;

@@ -8,10 +8,10 @@ namespace Tutorial
         Section 1 - Intro, tools
         Section 2 - Variables, expressions
         Section 3 - If and Loops
-Section 4 - Files and Methods
-Section 5 - OOP, Inheritance, abstraction, encapsualtion, interface, polymophism
-Section 6 - .NET Standard, WPF and Winforms
-Section 7 - .NET Core app 
+        Section 4 - Methods and Files
+        Section 5 - OOP, Inheritance, Abstraction...
+        Section 6 - .NET Standard, WPF and Winforms
+        Section 7 - .NET Core app 
          */
         public static Section1 S1 = new Section1();
         public static Section2 S2 = new Section2();
@@ -46,7 +46,6 @@ Section 7 - .NET Core app
 
             S7.PrintHello();
             S7.Section7_1();
-            //S3
         }
     }
 }

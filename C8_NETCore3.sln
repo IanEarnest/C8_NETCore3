@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial", "Tutorial\Tutorial.csproj", "{7C9AE4B8-6876-45F9-B3DD-DDBBE8FC3E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppCore", "WpfAppCore\WpfAppCore.csproj", "{2CB9340F-AA14-4429-B202-E4515E9032D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppCoreSQLite", "WpfAppCore\WpfAppCoreSQLite.csproj", "{2CB9340F-AA14-4429-B202-E4515E9032D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WpfAppCore
 {
-    class DatabaseContext:DbContext
+    public class DatabaseContext:DbContext
     {
         public DbSet<Employee> Employees { get; set; }
 
